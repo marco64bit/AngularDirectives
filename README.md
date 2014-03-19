@@ -14,12 +14,7 @@ Social component:
   require : fontawesome fonts http://fontawesome.io/
   
   example : <pre>
-              "<social-bar vertical="false">
-                <social-facebook title=""></social-facebook>
-                <social-email></social-email>
-                <social-twitter ></social-twitter>
-                <social-google></social-google>
-              </social-bar>"
+              &lt;social-bar vertical=&quot;false&quot;&gt; &lt;social-facebook title=&quot;&quot;&gt;&lt;/social-facebook&gt; &lt;social-email&gt;&lt;/social-email&gt; &lt;social-twitter &gt;&lt;/social-twitter&gt; &lt;social-google&gt;&lt;/social-google&gt; &lt;/social-bar&gt;
           </pre>
   TAG : 
         "social-bar"  contain social button
