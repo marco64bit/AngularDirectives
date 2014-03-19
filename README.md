@@ -7,9 +7,9 @@ if you use AngularJs, you must include the directive in your project followind t
 3 - include .html file in your views/inc folder
 
 
-<h3>Social component:</h3>
+<h3>Social component</h3>
 
-  description : display responsive flex social buttons on your app
+  display responsive flex social buttons on your app
   
   require : fontawesome fonts http://fontawesome.io/
   
@@ -23,29 +23,25 @@ if you use AngularJs, you must include the directive in your project followind t
               
 <b>social-bar</b>  contain social button
         
-<b>vertical</b> (true|false):    display your social buttons in vertical position or horizontal position      
+<ul><li>vertical [true|false]:    display your social buttons in vertical position or horizontal position      
+</li><ul/>
+<b>social</b> -[facebook,email,twitter,google]  social button type  
 
-  TAG:
-        "social-[facebook,email,twitter,google]"  social button type  
-        
-        attributes :
-        
-        title : add an additional text inside a single button
+<ul><li>title : add an additional text inside a single button</li><ul/>
         
         
-Alphabetical component:
+<h3>Alphabetical component</h3>
 
-  description : filter a list of item for A,B,C,D,E....Z
+filter a list of item for A,B,C,D,E....Z
   
   example : 
             <pre>&lt;alphabetical case=&quot;UPPER&quot; step=&quot;2&quot; row=&quot;false&quot;&gt;&lt;/alphabetical&gt;</pre>
             
-  TAG : "alphabetical" contain alphabet letters
+<b>alphabetical</b> contain alphabet letters
   
-  attributes :
-        
-        case[UPPER,lower]:    set alphabet in UPPER or lower case
-        step[number ]:        define next and prev slide step
-        row[true|false]:      display item in vertical position or horizontal position      
-  
+<ul>        
+<li>case[UPPER,lower]:    set alphabet in UPPER or lower case</li>
+<li>step[number ]:        define next and prev slide step</li>
+<li>row[true|false]      display item in vertical position or horizontal position     </li> 
+</ul>  
   
