@@ -6,7 +6,6 @@ if you use AngularJs, you must include the directive in your project followind t
 2 - include .css file in your scripts folder
 3 - include .html file in your views/inc folder
 
-Components : 
 
 Social component: 
 
