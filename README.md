@@ -28,10 +28,10 @@ if you use AngularJs, you must include the directive in your project followind t
 <br>
 <b>social</b> -[facebook,email,twitter,google]  social button type  
 <br>
-<ul><li>title : add an additional text inside a single button</li><ul/>
+<ul><li>title : add an additional text inside a single button</li></ul>
         
         
-        <h3>Alphabetical component</h3>
+<h3>Alphabetical component</h3>
 
 filter a list of item for A,B,C,D,E....Z
   
