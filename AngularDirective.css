@@ -1,0 +1,184 @@
+/* Space out content a bit */
+body {
+  margin:0;
+  padding: 0;
+}
+
+
+.container{
+  width: 100%!important;
+}
+
+/*
+  social component
+*/
+
+.social-row,.social-col{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+.social-row{flex-flow: row nowrap}
+.social-col{flex-flow: column nowrap}
+
+.social-row a,.social-col a{
+  position: relative;
+  flex: 1 1 auto;
+  align-self: auto;
+  min-width: 0;
+  height: 100%;
+  min-height: 44px;
+  color: #fff;
+}
+
+.social-row a:before,.social-col a:before,.social-col a:after,.social-row a:after {
+  display: -ms-flexbox;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  display: -moz-box;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  display: box;
+  box-pack: center;
+  box-align: center;
+}
+
+.social-row a:before,.social-col a:before{
+  font-family: FontAwesome;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.social-row.lined a:before,.social-col.lined a:before{
+  position: relative;
+  width: auto;
+  float: left;
+  padding: 0px 20px 0px 20px;
+}
+.social-row.lined a:after,.social-col.lined a:after{
+  height: 100%;
+  display: -ms-flexbox;
+  -ms-flex-pack: start;
+  -ms-flex-align: center;
+  display: -moz-box;
+  -moz-box-pack: start;
+  -moz-box-align: center;
+  display: -webkit-box;
+  -webkit-box-pack: start;
+  -webkit-box-align: center;
+  display: box;
+  box-pack: center;
+  box-align: center;
+}
+
+.social-row.social-small{height: 44px}
+.social-row.social-normal{height: 65px}
+.social-row.social-large{height: 80px}
+
+.social-col.social-small,.social-col.social-normal,.social-col.social-large{height: auto}
+.social-col.social-small a{height: 44px}
+.social-col.social-normal a{height: 65px}
+.social-col.social-large a{height: 80px}
+
+.social-small a:before{font-size: 2em}
+.social-normal a:before{font-size: 2.5em}
+.social-large a:before{font-size: 3em}
+
+.social-col a:after,.social-row a:after{display: none}
+
+.facebook {background-color: #3B5998} .facebook:before {content: "\f09a"}   .facebook:after {content: "facebook"}
+.twitter {background-color: #3CF}   .twitter:before {content: "\f099"}    .twitter:after {content: "twitter"}
+.google {background-color: #DA4F4B}   .google:before {content: "\f0d5"}   .google:after {content: "google"}
+.email {background-color: #FC8730}    .email:before {content: "\f003"}    .email:after {content: "email"}
+
+/*
+  /social component
+*/
+
+
+
+
+
+/*
+  Alphabetical component
+*/
+
+.Alphabetical{
+  width: 90%;
+  display: inline-block;
+  position: relative;
+  text-align: -webkit-center;
+  text-align: -moz-center;
+  text-align: -ms-center;
+  overflow: hidden;
+}
+#AlphabeticalPrev,#AlphabeticalNext{
+  width: 4%;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(216, 216, 216);
+  cursor: pointer;
+}
+#AlphabeticalNext{float: right}
+#AlphabeticalPrev{float: left}
+.row #AlphabeticalNext,.row #AlphabeticalPrev{display: none!important}
+.Alphabetical.row{
+  width: 36px;
+}
+.Alphabetical .letter{
+  display: inline-block;
+  width: 24px;
+  text-align: center;
+  margin-left: 5px;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  -webkit-transition:.3s;
+  -moz-transition:.3s;
+  -ms-transition:.3s;
+  -o-transition:.3s;
+  transition:.3s;
+}
+.Alphabetical .letter.row{
+  display: block;
+}
+.Alphabetical .Alphabetical-wrap.row{
+  width: auto;
+}
+.Alphabetical .Alphabetical-wrap{
+  width: 763px;
+  transition:.3s;
+}
+.Alphabetical .letter:hover{
+  border-bottom: 3px solid #2EA6E6;
+  color: #2EA6E6;
+}
+.Alphabetical.row .letter:hover{
+  border-left: 3px solid #2EA6E6;
+  border-bottom: 3px solid transparent;
+  color: #2EA6E6;
+}
+.Alphabetical .letter.sel{
+  border-bottom: 3px solid #2EA6E6;
+  color: #2EA6E6;
+  -webkit-transition:.3s;
+  -moz-transition:.3s;
+  -ms-transition:.3s;
+  -o-transition:.3s;
+  transition:.3s;
+}
+.Alphabetical.row .letter.sel{
+  border-bottom: 3px solid transparent;
+  border-left: 3px solid #2EA6E6;
+}
+/*
+  /Alphabetical component
+*/

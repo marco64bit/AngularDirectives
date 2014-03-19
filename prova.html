@@ -1,0 +1,26 @@
+<h4 class="text-center"> Directives </h4>
+
+
+<div ng-controller="MainCtrl">
+  <!--  alphabetical directive-->
+  <alphabetical case="UPPER" step="2" row="false"></alphabetical>
+  <hr>
+  <div ng-init="friends = [{name:'John', phone:'555-1276'},
+                         {name:'Mary', phone:'800-BIG-MARY'},
+                         {name:'Mike', phone:'555-4321'},
+                         {name:'Adam', phone:'555-5678'},
+                         {name:'Julie', phone:'555-8765'},
+                         {name:'Juliette', phone:'555-5678'}]"></div>
+  <ul ng-repeat="friend in friends | filter:active">
+    <li>{{friend.name}}</li>
+  </ul>
+
+<!-- social directive -->
+  <social-bar vertical="false">
+    <social-facebook title=""></social-facebook>
+    <social-email></social-email>
+    <social-twitter ></social-twitter>
+    <social-google></social-google>
+  </social-bar>
+
+</div>

@@ -1,0 +1,11 @@
+<span class="{{row}}">
+<div ng-click='AlphabeticalPrev()' id='AlphabeticalPrev' ng-show="displayLeft"><</div>
+<div class='Alphabetical {{row}}'>
+	<div class='Alphabetical-wrap {{row}}'>
+		<div ng-repeat="letter in alphabeth" class="letter {{row}}" ng-class="active=='{{letter}}'? 'sel':''" ng-click="setActive(letter)">
+			{{letter}}
+		</div>
+	</div>
+</div>
+<div id='AlphabeticalNext' ng-click='AlphabeticalNext()' ng-show="displayRight">></div>
+</span>
