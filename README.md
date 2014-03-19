@@ -40,7 +40,7 @@ Alphabetical component:
   description : filter a list of item for A,B,C,D,E....Z
   
   example : 
-            &lt;alphabetical case=&quot;UPPER&quot; step=&quot;2&quot; row=&quot;false&quot;&gt;&lt;/alphabetical&gt;
+            <pre>&lt;alphabetical case=&quot;UPPER&quot; step=&quot;2&quot; row=&quot;false&quot;&gt;&lt;/alphabetical&gt;</pre>
             
   TAG : "alphabetical" contain alphabet letters
   
