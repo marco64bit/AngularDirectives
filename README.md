@@ -25,8 +25,9 @@ if you use AngularJs, you must include the directive in your project followind t
         
 <ul><li>vertical [true|false]:    display your social buttons in vertical position or horizontal position      
 </li><ul/>
+<br>
 <b>social</b> -[facebook,email,twitter,google]  social button type  
-
+<br>
 <ul><li>title : add an additional text inside a single button</li><ul/>
         
         
