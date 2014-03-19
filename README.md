@@ -7,7 +7,7 @@ if you use AngularJs, you must include the directive in your project followind t
 3 - include .html file in your views/inc folder
 
 
-Social component: 
+<h3>Social component:</h3>
 
   description : display responsive flex social buttons on your app
   
@@ -19,8 +19,7 @@ Social component:
                 &lt;social-email&gt;&lt;/social-email&gt; 
                 &lt;social-twitter &gt;&lt;/social-twitter&gt;
                 &lt;social-google&gt;&lt;/social-google&gt;
-              &lt;/social-bar&gt;
-          </pre>
+              &lt;/social-bar&gt;</pre>
   TAG : 
         "social-bar"  contain social button
         
@@ -41,7 +40,7 @@ Alphabetical component:
   description : filter a list of item for A,B,C,D,E....Z
   
   example : 
-            <alphabetical case="UPPER" step="2" row="false"></alphabetical>
+            &lt;alphabetical case=&quot;UPPER&quot; step=&quot;2&quot; row=&quot;false&quot;&gt;&lt;/alphabetical&gt;
             
   TAG : "alphabetical" contain alphabet letters
   
