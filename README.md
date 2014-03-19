@@ -14,12 +14,12 @@ if you use AngularJs, you must include the directive in your project followind t
   require : fontawesome fonts http://fontawesome.io/
   
   example : <pre>
-              &lt;social-bar vertical=&quot;false&quot;&gt; 
-                &lt;social-facebook title=&quot;&quot;&gt;&lt;/social-facebook&gt;
-                &lt;social-email&gt;&lt;/social-email&gt; 
-                &lt;social-twitter &gt;&lt;/social-twitter&gt;
-                &lt;social-google&gt;&lt;/social-google&gt;
-              &lt;/social-bar&gt;</pre>
+&lt;social-bar vertical=&quot;false&quot;&gt; 
+  &lt;social-facebook title=&quot;&quot;&gt;&lt;/social-facebook&gt;
+  &lt;social-email&gt;&lt;/social-email&gt; 
+  &lt;social-twitter &gt;&lt;/social-twitter&gt;
+  &lt;social-google&gt;&lt;/social-google&gt;
+&lt;/social-bar&gt;</pre>
               
 <b>social-bar</b>  contain social button
         
