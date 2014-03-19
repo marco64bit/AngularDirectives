@@ -20,12 +20,10 @@ if you use AngularJs, you must include the directive in your project followind t
                 &lt;social-twitter &gt;&lt;/social-twitter&gt;
                 &lt;social-google&gt;&lt;/social-google&gt;
               &lt;/social-bar&gt;</pre>
-  TAG : 
-        "social-bar"  contain social button
+              
+        <i>social-bar</i>  contain social button
         
-        attributes : 
-        
-            vertical[true|false]:    display your social buttons in vertical position or horizontal position      
+        vertical[true|false]:    display your social buttons in vertical position or horizontal position      
 
   TAG:
         "social-[facebook,email,twitter,google]"  social button type  
