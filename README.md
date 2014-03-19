@@ -13,14 +13,14 @@ Social component:
   
   require : fontawesome fonts http://fontawesome.io/
   
-  example : 
+  example : <pre>
               <social-bar vertical="false">
                 <social-facebook title=""></social-facebook>
                 <social-email></social-email>
                 <social-twitter ></social-twitter>
                 <social-google></social-google>
               </social-bar>
-  
+  </pre>
   TAG : 
         "social-bar"  contain social button
         
