@@ -44,5 +44,7 @@ filter a list of item for A,B,C,D,E....Z
 <li>case[UPPER,lower]:    set alphabet in UPPER or lower case</li>
 <li>step[number ]:        define next and prev slide step</li>
 <li>row[true|false]      display item in vertical position or horizontal position     </li> 
-</ul>  
+</ul>
+
+in parent scope you find $scope.active to filter your list
   
