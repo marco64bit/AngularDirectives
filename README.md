@@ -23,7 +23,7 @@ if you use AngularJs, you must include the directive in your project followind t
               
 <b>social-bar</b>  contain social button
         
-<b>vertical</b>true|false:    display your social buttons in vertical position or horizontal position      
+<b>vertical</b> (true|false):    display your social buttons in vertical position or horizontal position      
 
   TAG:
         "social-[facebook,email,twitter,google]"  social button type  
